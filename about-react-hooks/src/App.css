@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 720px 0px 720px;
+  border: 2px solid gray;
+}
+
+.container .light{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px;
+  /* border: 1px solid black; */
+}
+
+.container .red{
+  /* background-color: red; */
+  border: 3px solid rgba(202, 33, 33, 0.881);
+}
+
+.container .yellow{
+  /* background-color: yellow; */
+  border: 3px solid rgba(202, 202, 33, 0.881);
+}
+
+.container .green{
+  /* background-color: green; */
+  border: 3px solid rgba(33, 202, 33, 0.881);
+}
+
+.control-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 600px 0px 600px;
+  border: 2px solid gray;
+}
+
+.control-btn .btn{
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  background-color: beige;
+}
+
+.control-btn .redBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+.control-btn .yellowBtn:hover{
+    background-color: rgb(221, 232, 16);
+    color: white;
+}
+
+.control-btn .greenBtn:hover{
+    background-color: green;
+    color: white;
+}   
+
+.btn-container{
+    margin: 5px;
+    
+}
+
+/* styles starts for ToDo.jsx */
+
+.app-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container input{
+    width: 500px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+}
+
+.done-btn button{
+    margin-left: 3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: rgb(45, 193, 19);
+    font-size: xx-large;
+}
+
+.done-btn button:hover{
+    background-color: rgb(46, 236, 13);
+}
+
+.task-container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(53, 53, 53);
+    border-radius: 25px;
+    padding: 10px;
+    height: 100vh;
+    width: auto;
+}
+
+.task-container td{
+    width: 800px;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 25px;
+    font-size: xx-large;
+    text-align: left;
+    padding: 10px;
+}
+
+.task-container td button{
+    float: right;
+    margin-left: 3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+
+.edit{
+    background-color: rgb(45, 193, 19);
+}
+
+.delete {
+    background-color: red;
+}
+.delete:hover{
+    background-color: rgb(207, 20, 20);
+}
+
+.edit:hover{
+    background-color: rgba(45, 184, 20, 0.737);
+}
+
+
+/* styles end for ToDo.jsx */
