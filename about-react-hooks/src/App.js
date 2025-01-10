@@ -1,16 +1,12 @@
 import './App.css';
-import FormCop from './Component/FormCop';
-import UseState from './Component/UseState';
-import ToDo from './Component/ToDo';
-import 'boxicons'
-
+import GitHubApi from './Component/GitHubApi';
+import { useState } from 'react';
 
 function App() {
+  // State to manage visibility of components
   return (
-    <div className="App">
-      {/* <UseState/> */}
-      <ToDo/>
-      {/* <FormCop/> */}
+    <div className="big-box">
+       <GitHubApi />
     </div>
   );
 }

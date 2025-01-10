@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
 .App {
   text-align: center;
 }
@@ -107,13 +109,26 @@
     
 }
 
-/* styles starts for ToDo.jsx */
 
-.app-container{
-    margin-top: 20px;
+
+/* styles end for GitHubApi.jsx */
+
+.parent-center{
+    margin: 5px 100px 0px 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .input-container input{
@@ -126,68 +141,82 @@
     padding: 10px;
 }
 
-.done-btn button{
+.input-container button{
     margin-left: 3px;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     border: none;
     color: white;
     background-color: rgb(45, 193, 19);
     font-size: xx-large;
-}
+}  
 
-.done-btn button:hover{
+.input-container button:hover{
     background-color: rgb(46, 236, 13);
 }
 
-.task-container{
-    margin: 50px;
+.result-container{
+    margin: 0px 50px 50px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.result{
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
     border: 3px solid rgb(53, 53, 53);
     border-radius: 25px;
     padding: 10px;
-    height: 100vh;
+    height: 20% ;
     width: auto;
 }
 
-.task-container td{
-    width: 800px;
-    height: auto;
-    border: 2px solid gray;
-    border-radius: 25px;
-    font-size: xx-large;
-    text-align: left;
-    padding: 10px;
+.avatar {
+    display: flex;
+    align-items: start;
+    justify-content: center;
 }
 
-.task-container td button{
-    float: right;
-    margin-left: 3px;
-    height: 50px;
-    width: 50px;
+.avatar img{
     border-radius: 50%;
-    border: none;
-    color: white;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
-.edit{
-    background-color: rgb(45, 193, 19);
+.info .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
 }
 
-.delete {
-    background-color: red;
-}
-.delete:hover{
-    background-color: rgb(207, 20, 20);
-}
-
-.edit:hover{
-    background-color: rgba(45, 184, 20, 0.737);
+.peoples{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 
+.people{
+    margin: 8px;
+    width: 200px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-/* styles end for ToDo.jsx */
+.img-status img{
+    border-radius: 0;
+}
+
+/* styles end for GitHubApi.jsx */
+
+

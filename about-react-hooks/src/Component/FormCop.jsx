@@ -27,7 +27,7 @@ export default function Learn() {
               <button onClick={() => setList([])}>RESET</button>
           </div>
             <ul>
-                {list.map((ele,index) => (
+                {XMLDocument.map((ele,index) => (
                     <li key={index}>{ele}</li>
                 ))}
             </ul>
