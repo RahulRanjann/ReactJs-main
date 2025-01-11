@@ -53,7 +53,8 @@ return (
             </div>
         </div>
         <div className="input-container">
-        <form onSubmit={handleSubmit}>
+         <form onSubmit={handleSubmit}>
+
             <input
                 type="text"
                 name="username"
@@ -63,9 +64,11 @@ return (
                 onChange={(e) => setValue(e.target.value)}
             />
             <button type="submit">
-                <box-icon name="search"></box-icon>
+                <div>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAq9JREFUSEvllkuIjmEUx3//jEsWFrNxvyTTIFEWFlhIoQkbuZVCMwhNSjKRjRUL5FIjasYtUmTBQtiwomxQlFuRDJpIodwd75meV998833v+8xXM7PwLN/3nPN7znme8z+P6KOlPuISBTazAcAMoAYYBrwFngN3Jf2oZPOZYDMbC+wHFgGDSgC+ApeB7ZJed2cDZcFmthk4CHi2ees7sFHSqTzD9H9JsJl5ltuC0a+kvMeAm8AT4AUwHpgIzAU2AP2C7S5Je2LgXcBmtgk4Gpz9HBdKeloumJlNTc7/KjAy2KyQdCEP3glsZpOAB0D/kN1sSe/zgpjZKOA2MBr4AtRKepPlVwy+ngSYD/hNdeeXedD0v5lNA+5BR6eckbQmCmxm1cCHYHxI0tZYaAH8PLAS+ARUS/pdLsa/jM1sKXAxGM6UdKcC8DIgPd/MGIXgLcDhABsi6XMF4HHh1rvrWkmnYzLemfRs2gpVWWXKuOEDgW/hf5OkfTFg78fjwXC4pHcVZDwCaAt+yyWlR9clVGGp5wE3gkWdpGsVgBcDV4LfFEmPYjIeDHwMEtkiaX0F4LPAKsBc27MGSHEfXwKWAH+S2zlZkktk1Ap9fD8YtyZDY11UH7uRmbkGe3l8ErlczpLUnkc2szFBuVw2XQtqJHn1yq5SWt0AtASPV8ACSY8zbvL0oNVDg01zIrONeZstN532Jm2xIzj7dPKhcatgOtX6USTf5gBe0uI4DZJOdCvj1DhMqSNAVd7ugZ/hQeDql65MeN4LxM/8AFAHuDgUL9fik8nH3UkXtJlZfTKhWmPgsW8uh/qba0J4c/nUegY8lJQqVQevBLxekm+u04oCR5S6k0mA+wX1+N6aqyWdKzTqEXBB5im8UVJzr4AD3NXPe7qpV0odczQ9Vuo8+P8H/gvzS+Ifyt+yCwAAAABJRU5ErkJggg=="/>
+                </div>
             </button>
-        </form>
+         </form>
         </div>
     </div>
     <div className="result-container">
